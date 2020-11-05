@@ -1,18 +1,20 @@
 #photoWall {
   display: flex;
+  position: relative;
+  left: 200px;
   width: 200px;
   height: 200px;
   border: solid black;
-  /* opacity: 0; */
   overflow: hidden;
 }
 
 #frame {
+  position: relative;
+  right: 00px;
   display: flex;
   width: 200px;
   height: 200px;
-  border: solid red;
-  opacity: 1;
+
 }
 
 #frame > img {
