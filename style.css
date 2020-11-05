@@ -4,17 +4,43 @@
   left: 200px;
   width: 200px;
   height: 200px;
-  border: solid black;
+  /* border: solid black; */
   overflow: hidden;
 }
 
 #frame {
   position: relative;
-  right: 00px;
+  right: 0px;
   display: flex;
   width: 200px;
   height: 200px;
+}
 
+.slidein {
+  animation-name: slidein;
+  animation-duration: 18s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes slidein {
+  0%, 25% {
+    right: 0px;
+  }
+
+  32%, 57% {
+    right: 200px;
+  }
+
+  64%, 89% {
+    right: 400px;
+  }
+
+  100% {
+    right: 0px;
+  }
 }
 
 #frame > img {
