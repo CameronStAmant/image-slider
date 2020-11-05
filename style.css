@@ -4,7 +4,6 @@
   left: 50%;
   width: 200px;
   height: 200px;
-  /* border: solid black; */
   overflow: hidden;
 }
 
@@ -15,29 +14,6 @@
   width: 200px;
   height: 200px;
   transition: ease-in-out 1s;
-  /* animation-name: slidein;
-  animation-duration: 18s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: infinite; */
-}
-
-@keyframes slidein {
-  0%, 25% {
-    right: 0px;
-  }
-
-  32%, 57% {
-    right: 200px;
-  }
-
-  64%, 89% {
-    right: 400px;
-  }
-
-  100% {
-    right: 0px;
-  }
 }
 
 #frame > img {
@@ -52,7 +28,6 @@
   bottom: 20px;
   opacity: 0.5;
   border: none;
-  /* color: #ffffff; */
   outline: none; 
   text-align: center;
   border-radius: 50%;
