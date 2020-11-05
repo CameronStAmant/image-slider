@@ -1,18 +1,21 @@
-#frame {
-  display: flex;
-  width: 600px;
-  height: 200px;
-  /* border: solid black; */
-}
-
-#frame > div {
+#photoWall {
   display: flex;
   width: 200px;
   height: 200px;
-  /* border: solid red; */
+  border: solid black;
+  /* opacity: 0; */
+  overflow: hidden;
 }
 
-#frame > div > img {
+#frame {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: solid red;
+  opacity: 1;
+}
+
+#frame > img {
   display: inline-flex;
   width: 200px;
   height: 200px;
