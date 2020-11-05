@@ -54,3 +54,14 @@
   width: 200px;
   height: 200px;
 }
+
+.button {
+  position: relative;
+  left: 50%;
+  opacity: 0.5;
+  border: none;
+  /* color: #ffffff; */
+  outline: none; 
+  text-align: center;
+  border-radius: 50%;
+}
