@@ -1,7 +1,7 @@
 #photoWall {
   display: flex;
   position: relative;
-  left: 33%;
+  left: 50%;
   width: 200px;
   height: 200px;
   /* border: solid black; */
@@ -21,15 +21,6 @@
   animation-delay: 0s;
   animation-iteration-count: infinite; */
 }
-
-/* .slidein {
-  animation-name: slidein;
-  animation-duration: 18s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-
-} */
 
 @keyframes slidein {
   0%, 25% {
@@ -57,7 +48,8 @@
 
 .button {
   position: relative;
-  left: 42%;
+  left: 50%;
+  bottom: 20px;
   opacity: 0.5;
   border: none;
   /* color: #ffffff; */
@@ -68,6 +60,8 @@
 
 .dot {
   position: relative;
+  display: flex;
+  opacity: 0.5;
   left: 50%;
   bottom: 20px;
   height: 7px;
@@ -75,4 +69,5 @@
   border-radius: 50%;
   background-color: #bbb;
   display: inline-block;
+  transition: ease-in-out 0.2s;
 }
