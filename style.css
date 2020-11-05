@@ -1,0 +1,19 @@
+#frame {
+  display: flex;
+  width: 600px;
+  height: 200px;
+  /* border: solid black; */
+}
+
+#frame > div {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  /* border: solid red; */
+}
+
+#frame > div > img {
+  display: inline-flex;
+  width: 200px;
+  height: 200px;
+}
