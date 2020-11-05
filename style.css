@@ -14,16 +14,21 @@
   display: flex;
   width: 200px;
   height: 200px;
+  /* animation-name: slidein;
+  animation-duration: 18s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; */
 }
 
-.slidein {
+/* .slidein {
   animation-name: slidein;
   animation-duration: 18s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: infinite;
 
-}
+} */
 
 @keyframes slidein {
   0%, 25% {
