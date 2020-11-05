@@ -1,7 +1,7 @@
 #photoWall {
   display: flex;
   position: relative;
-  left: 200px;
+  left: 33%;
   width: 200px;
   height: 200px;
   /* border: solid black; */
@@ -57,11 +57,22 @@
 
 .button {
   position: relative;
-  left: 50%;
+  left: 42%;
   opacity: 0.5;
   border: none;
   /* color: #ffffff; */
   outline: none; 
   text-align: center;
   border-radius: 50%;
+}
+
+.dot {
+  position: relative;
+  left: 50%;
+  bottom: 20px;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
 }

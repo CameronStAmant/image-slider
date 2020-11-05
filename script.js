@@ -28,5 +28,22 @@ previousButton.addEventListener('click', () => {
   }
 });
 
+const dotNavigations = Array.from(document.getElementsByClassName('dot'));
+dotNavigations.forEach((item) => {
+  item.addEventListener('click', () => {
+    switch (item.id) {
+      case '1':
+        frame.style.right = '0px';
+        break;
+      case '2':
+        frame.style.right = '200px';
+        break;
+      case '3':
+        frame.style.right = '400px';
+    }
+  });
+});
+
 nextButton;
 previousButton;
+dotNavigations;
